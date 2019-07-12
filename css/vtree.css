@@ -1,7 +1,15 @@
 svg.vtree {
   overflow: hidden;
   background: #ffffff;
-  -webkit-box-shadow: 4px 4px 8px rgba(0,0,0,0.5);
-  -moz-box-shadow   : 4px 4px 8px rgba(0,0,0,0.5);
-  box-shadow        : 4px 4px 8px rgba(0,0,0,0.5);
+  border: 1px solid black;
+}
+
+input[type="button"] {
+  font-size: medium;
+  border: 1px solid black;
+}
+
+textarea{
+  font-size: smaller;
+  border: 1px solid black;
 }

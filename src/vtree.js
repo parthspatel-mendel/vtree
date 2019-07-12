@@ -13,9 +13,9 @@ import ObjectReader from './reader/object.js';
 import { visitAfter } from './util.js';
 
 
-const WIDTH = 960;
-const HEIGHT = 800;
-const MARGIN = 20;
+const WIDTH = Math.max(document.documentElement.clientWidth, window.innerWidth || 980) - 30;
+const HEIGHT = Math.max(document.documentElement.clientHeight, window.innerHeight || 500) + 100;
+const MARGIN = 60;
 
 const DEFAULT_TREE_LAYOUT_HEIGHT = 50;
 const DEBUG_TREE_LAYOUT_HEIGHT = 100;
@@ -36,7 +36,7 @@ g.vtree-node rect.null-text { fill: #888; }
 class VTree {
   constructor(container) {
     this.root = new ArrayNode([], new ArrayLayout({ hideLinks: true }));
-    this.defaultLayout = new TreeLayout({height: DEFAULT_TREE_LAYOUT_HEIGHT});
+    this.defaultLayout = new TreeLayout({ height: DEFAULT_TREE_LAYOUT_HEIGHT });
     this.container = container;
     this._width = WIDTH;
     this._height = HEIGHT;

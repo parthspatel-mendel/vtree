@@ -1,14 +1,14 @@
 {
   "name": "vtree",
   "version": "0.3.0",
-  "description": "display json data in a tree diagram.",
+  "description": "display json data in an ast",
   "main": "build/vtree.js",
   "scripts": {
     "build": "webpack"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ivan111/vtree.git"
+    "url": "git+https://github.com/parthspatel-mendel/vtree.git"
   },
   "keywords": [
     "json",
@@ -17,9 +17,9 @@
   "author": "ivan111",
   "license": "Apache License Version 2",
   "bugs": {
-    "url": "https://github.com/ivan111/vtree/issues"
+    "url": "https://github.com/parthspatel-mendel/vtree/issues"
   },
-  "homepage": "https://github.com/ivan111/vtree#readme",
+  "homepage": "https://github.com/parthspatel-mendel/vtree#readme",
   "devDependencies": {
     "babel-core": "^6.23.1",
     "babel-loader": "^7",

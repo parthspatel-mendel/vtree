@@ -1,4 +1,4 @@
-JSON to Tree Diagram Converter
+JSON to AST Converter
 ==============================
 
 > For Yakusugi
