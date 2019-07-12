@@ -12,7 +12,8 @@
   },
   "keywords": [
     "json",
-    "tree"
+    "tree",
+    "ast"
   ],
   "author": "ivan111",
   "license": "Apache License Version 2",
